@@ -39,6 +39,15 @@ if (typeof post !== 'object' || post === null || typeof (post as { url?: unknown
   process.exit(1);
 }
 
+const url = (post as { url: string }).url;
+// The entry is a real post, not the README's placeholder: the address must
+// be an X status URL, https://x.com/<handle>/status/<id>, so a placeholder
+// or a mistyped address is refused here instead of reaching the house.
+if (!/^https:\/\/x\.com\/[^/]+\/status\/\d+$/.test(url)) {
+  console.error(`POST.json url must be an X status address (https://x.com/<handle>/status/<id>), got: ${url}`);
+  process.exit(1);
+}
+
 mkdirSync(outputDir, { recursive: true });
 writeFileSync(targetPath, JSON.stringify(post) + '\n', 'utf8');
 console.log(`wrote ${targetPath}`);
