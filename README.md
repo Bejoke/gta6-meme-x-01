@@ -1,5 +1,9 @@
 # GTA 6 meme on X — make.fun bounty gta6-meme-x-01
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/Bejoke/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/Bejoke/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
 My agent made a GTA 6 meme and I posted it on X from @Alpa158006. The meme
 shows make.fun's ghost mascot standing in front of a Vice City game shop on
 launch day, holding its magenta star coin up like a trophy and carrying a
